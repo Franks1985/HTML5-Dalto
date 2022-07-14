@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Web</title>
+  <a href="/index.html">Volver a la pagina 1</a>
+  <link rel="icon" href="/francisco-sequera-cd.ico">
+</head>
+
+<body>
+  <h1>Mi pagina web</h1>
+  <h2>Subtitulo de mi pagina web</h2>
+
+  <p>Todo tendencias, es un canal de<b> Youtube</b> que busca cambiar la mentalidad de <b> las nuevas
+      generaciones</b>despertando una <b> pasion </b> por el desarrollo, la tecnologia y la programacion a traves de la
+    metodologias de enseñanza, mostrando que el desarrollo tiene detras un mundo magnifico. haz <a target="_blank"
+      href="https://www.youtube.com/c/soydalto">Click
+      aqui</a> para mas informacion
+    <br><br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere amet beatae dolorum accusantium doloribus ipsam,
+    quo reprehenderit ratione, delectus eius nesciunt enim eos aspernatur, incidunt expedita dignissimos molestias
+    impedit. Molestias.
+  </p>
+  <div>
+    <h4>Lista de compras para el super</h4>
+    <ul>
+      <li>Leche</li>
+      <li>Harina</li>
+      <li>Huevo</li>
+      <li>Pan</li>
+      <li>Auto 0 km</li>
+    </ul>
+    <ol>
+      <li>Leche</li>
+      <li>Harina</li>
+      <li>Huevo</li>
+      <li>Pan</li>
+      <li>Auto 0 Km</li>
+    </ol>
+  </div>
+
+  <div>
+    <h4>Mi Primera Imagen en HTML segun Dalto</h4>
+    <p>Aca va la <b>Imagen :</b>
+    </p>
+    <img src="/francisco-sequera-cd.jpg" alt="Foto de mi cd">
+    <br><br><br>
+    <hr>
+    <h4>Aca va el video</h4>
+    <video src="/gotas de lluvia.mp4" controls>Yo Cantando Gotas de lluvia</video>
+    <br><br><br>
+    <hr>
+    <h4>Aca va el Audio</h4>
+    <audio src="/gotas de lluvia.mp4" controls></audio>
+  </div>
+  <br><br><br>
+  <hr>
+
+  <div>
+    <h4>Div</h4>
+    <p>
+      sirve para separar <b>Contenido</b>, lo puedes usar las veces que quieras en una web
+    </p>
+  </div>
+  <br><br><br>
+  <hr>
+  <div>
+    <h4>Formularios</h4>
+    <p>
+    <form>
+      <!--se coloca el atributo required en un formulario, para que no se pueda enviar el formulario a menos que se completen todos los campos -->
+      <input type="text" placeholder="ingresa tu nombre" required="">
+      <input type="password" placeholder="ingresa tu contraseña" required="">
+      <input type="number" placeholder="seleciona el numero" required="">
+      <input type="email" placeholder="ingresa tu correo" required="">
+      <input type="color" placeholder="selecciona el color">
+      <input type="range" placeholder="selecciona el rango" min="1" max="10">
+      <input type="date" placeholder="selecciona la fecha">
+      <input type="time" placeholder="selecciona la hora">
+      <input type="button" placeholder="toca el boton" value="boton">
+      <input type="submit" placeholder="toca para enviar">
+      <br><br>
+      <!--se coloca el atributo readonly en un formulario de textarea, solo cuando queremos que el usuario no modifique el texto, se lo contrario no colocar READONLY-->
+      <textarea readonly name="" id="" cols="30" rows="10"></textarea>
+    </form>
+    </p>
+  </div>
+  <br><br><br>
+  <hr>
+  <div>
+    <h4>Metadatos</h4>
+    <p>
+    <h6>Descripcion de meta</h6>
+    Los metadatos son una especie de informacion que describe la informacion de un objeto, basicamente describe
+    recursos,el metadato se trabaja con la etiqueta < meta>, es la que se pone en el head, en el head esta todo lo que
+      no se puede ver, osea que la etiqueta meta no va a ser vista por el usuario. <br>
+      para cambiar la codificacion de nuestra pagina, colocamos la etiqueta meta con el atributo charset y le damos la
+      codificacion con UTF-8.
+      <br>
+      <h6>Tipos de etiquetas meta</h6>
+      <ul>
+        <li>Etiqueta: meta</li>
+        <li>Atributo: name</li>
+        <li>Contenido: =""</li>
+      </ul>
+      meta name="keywords" content="harina, huevo, leche" <br>
+      con esta etiqueta le indicamos a los buscadores las palabras claves para encontrar nuestra pagina.
+      <br>
+      <h6>meta name="description" content=""</h6>
+      esta etiqueta es para describir la pagina, dicha descripcion no debe llevar mas de 165 caracteres.
+      <br>
+      <h6>Meta name="autor" content=""</h6>
+      esta etiqueta lleva el nombre del autor de la pagina
+      <br>
+      <h6>meta name="copyright" content=""</h6>
+      esta etiqueta es en caso que la empresa este registrada y tenga copyright, para informar si tiene o no. osea en
+      content va el nombre de la empresa registrada dueña de los derechos de esa empresa.
+      <br>
+      <h6>meta name="robots" content=""</h6>
+      esta se usa para incicar si la pagina es indexable(index) o no(noindex),
+      cuando es index: los buscadores pueden encontrar la pagina facilmente y cuando es noindex: se usa para las paginas
+      que queramos que sean ocultas, osea cuando coloquen una palabra clave en los buscadores referentes a nuestra
+      pagina, esta no aparesca en los buscadores.
+      </p>
+  </div>
+  <br><br><br>
+  <div>
+    <h4>HTML semantico</h4>
+    <p>
+      escribir html semantico: es la forma de escribir html para que sea mas legible, mejor y mas optimo para los
+      buscadores.
+      <br>
+      lo primero que debe tener una pagina web es un encabezado y una barra de navegacion, pueden estar juntos o
+      separados. el header es el encabezado, el encabezado es como la presentacion, de que trata la pagina.
+      <br>
+      despues tenemos un conetido principal, se utiliza algo llamado articulo(article), este se puede dividir en
+      secciones(section), pueden ser muchos articulos o un solo articulo.
+      <br>
+      luego tenemos la barra lateral, que es donde va como un articulo segundario, es donde va informacion que no es tan
+      relevante, esta etiqueta se llama (aside), es como la barra lateral.
+      <br>
+      y por ultimo tenemos el pie de pagina (footer), aca es donde va el copyright,LO QUE NOS MANDA AL ENLACE, lo que
+      nos lleva a la parte de contactos, redes sociales u otras cosas.
+    </p>
+  </div>
+  <br><br><br>
+  <div>
+    <p>
+      a continuacion vamos a construir nuestra pagina semantica basados en todo lo mensionado anteriormente. <br>Nota:
+      esta pagina esta con todos los elementos estandares, esta bien estructurada y buena semantica <a
+        href="/index3.html">Click aca para ir a la pagina </a>
+    </p>
+  </div>
+  <br><br><br>
+  <hr>
+  <div>
+    <H4>Tablas</H4>
+    <p>Asi se hacia antes, con bordes de un pixel, pero ahora ya no se usa, ahora se deja sin borde y se perfecciona con
+      css</p>
+    <table border="1px">
+      <tr>
+        <!--con tr se definen las filas que van hacia la derecha-->
+        <td>
+          <!--con td se definen los campos por fila-->
+          <b>Nombre</b>
+        </td>
+        <td><b>Apellido</b></td>
+        <td><b>Canal</b></td>
+        <td><b>seguidores</b></td>
+      </tr>
+      <tr>
+        <td>Frank</td>
+        <td>Sequera</td>
+        <td>Youtube</td>
+        <td>1000</td>
+      </tr>
+      <tr>
+        <td>Jaklins</td>
+        <td>Coronado</td>
+        <td>Facebook</td>
+        <td>5000</td>
+      </tr>
+      <tr>
+        <td>Rafa</td>
+        <td>Lopez</td>
+        <td>Instagram</td>
+        <td>10000</td>
+      </tr>
+    </table>
+  </div>
+  <br><br><br>
+  <hr>
+  <div>
+    <p>el atributo (alt) en la etiqueta img es importantisima para el ceo de los buscadores, el atributo "alt" define
+      una especie de titulo, en caso de que la imagen no se pueda mostrar, se mostrara el nombre que coloquemos dentro
+      de "alt". <br> ademas de este atributo tambien tenemos el atributo "title" es para poner el titulo de la imagen,
+      es el texto que aparece cuando pasamos el mouse sobre la imagen
+      <br><br>
+      luego tenemos la etiqueta center, lo que hace es centrar todo lo que este dentro de dicha etiqueta, funciona con
+      las imagenes y con los textos. Para que esta etiqueta funcione en las tablas, hay que colocarlas dentro de cada
+      etiqueta tr. <b>NO SE RECOMIENDA USAR ESA ETIQUETA "CENTER"</b> es mejor trabajarlo con css.
+    </p>
+  </div>
+  <br><br><br>
+  <div>
+    <a href="#fin">Ir al final del texto</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dicta commodi dolorem provident perspiciatis
+      ut minima eius unde. Sed, modi? Laboriosam iste sit ex facilis quasi, voluptatibus aut repudiandae possimus
+      consequuntur iusto enim quaerat quia delectus provident, quibusdam voluptate. Id, assumenda placeat. Fuga
+      perspiciatis eos blanditiis totam dolorum iusto vitae illum illo labore vero nulla aspernatur quas maiores
+      laborum, alias inventore, voluptatibus mollitia id, sed ex hic aliquam necessitatibus ad. Eius iste vero ab
+      aspernatur molestias. Deserunt possimus dolorum expedita quasi? Facilis nulla necessitatibus dolorum ipsum
+      voluptates! Porro enim obcaecati itaque dignissimos aut vitae commodi, odio qui labore, placeat cumque deserunt
+      delectus! Debitis modi aliquam, porro sunt dolore, nemo atque enim ipsa voluptatum, temporibus laboriosam
+      dignissimos quo facere qui aliquid. Perferendis voluptate vero autem, commodi voluptatibus iure mollitia? Quis ex
+      fugiat nam aliquam excepturi numquam ipsa tenetur labore hic quod error dolor optio neque accusantium accusamus
+      nesciunt quaerat inventore animi, magnam quibusdam totam! Nihil hic cumque, placeat temporibus voluptate eaque!
+      Illo neque ut architecto natus a fugiat, culpa suscipit eaque, ipsa delectus perferendis cum facere ullam. Quaerat
+      ducimus id expedita incidunt. Illum, at. Veritatis cupiditate eveniet quis neque corrupti magni accusamus nostrum
+      voluptates animi excepturi, autem eligendi eos recusandae expedita dolorum explicabo quibusdam minima odio sunt!
+      Quaerat id corrupti eius pariatur libero consectetur recusandae et deserunt at ullam, unde ipsam assumenda animi
+      magni dolorem odit magnam alias nostrum! Delectus reiciendis, voluptatibus odio soluta, id culpa quisquam
+      officiis, dolor sapiente quo ea! Voluptatum sequi fugit dolorum magnam accusantium, numquam tenetur reprehenderit
+      ut unde ex voluptates aperiam, suscipit, consequuntur est facilis quia itaque veritatis ducimus necessitatibus
+      nostrum. Aperiam tempora dolore earum sunt repudiandae corrupti quam, vitae ab. Dolorum molestias atque tempore
+      quibusdam cum laudantium laboriosam asperiores accusamus doloremque harum ipsum itaque consectetur nulla omnis,
+      totam veniam optio id illum quas similique delectus vel? Ipsum repudiandae molestias maiores velit commodi
+      dolorum, possimus quis accusamus, eos repellendus iste rerum itaque mollitia expedita dignissimos consequuntur
+      dolores alias placeat nemo! Laboriosam optio labore distinctio facilis ab quia, sint aut quis magnam, vitae a
+      consequuntur assumenda omnis officiis, iste sapiente quo ut! Dolorum libero nemo unde perspiciatis rem! Laudantium
+      quidem, architecto dolore sit consequuntur debitis? Quis asperiores incidunt esse, magni modi atque possimus
+      recusandae vero adipisci et placeat nulla vel soluta ducimus, corrupti saepe explicabo odio eligendi illum. Totam
+      non maiores laboriosam exercitationem! Fugiat alias unde sit repudiandae, error nostrum autem perferendis aliquid
+      quia, voluptatum pariatur deleniti quidem perspiciatis voluptatem rerum saepe nam doloremque placeat ducimus enim
+      numquam. Vero non et accusamus nisi in sunt aliquid maiores amet, at modi tempore assumenda nihil ex dolor
+      necessitatibus ad consectetur illum dolore mollitia nam quidem! Quae, iste facere nam ad, praesentium quasi
+      quaerat blanditiis sed ex error consequuntur eum cumque eos odit sit veritatis laborum, quam consequatur ipsam
+      nobis libero doloremque? Modi fuga exercitationem deleniti molestias inventore consectetur. Beatae corporis ad
+      suscipit sapiente odio inventore voluptates illum aut nihil et tempora, aliquam a amet accusamus veniam minus cum.
+      Corporis, totam ducimus voluptates asperiores distinctio temporibus eum ullam, nam repellendus repudiandae
+      deserunt? Recusandae enim itaque eveniet, reiciendis quod hic iusto, asperiores labore aspernatur ab quis
+      doloribus omnis ut explicabo. Libero doloribus provident ratione enim beatae assumenda a, at ullam. Repudiandae
+      sapiente ratione laboriosam, optio fuga aperiam hic quis officia tempore incidunt consequatur harum repellendus
+      quisquam officiis quidem nulla blanditiis in? Quaerat aliquid nobis ducimus adipisci, error rerum doloribus magnam
+      corrupti harum neque animi sint iste accusamus voluptatem debitis eligendi distinctio itaque voluptas dolorem
+      tempore quas perferendis quam vitae? Ipsa numquam fuga inventore et dignissimos? Dignissimos suscipit, placeat,
+      esse facilis ipsam voluptates laudantium non tempore quos harum explicabo optio modi? Libero assumenda autem aut
+      molestias culpa minus cum esse est! Illo, sed sint eius commodi inventore veritatis architecto adipisci porro
+      labore eos animi! Odit libero quaerat porro quod voluptate in aperiam, sapiente molestiae ea recusandae, inventore
+      tempore sequi suscipit magni vero reiciendis vel accusamus accusantium ut nulla dicta aut voluptates dolor
+      doloribus? Facilis, blanditiis eum omnis voluptatum hic aliquam ipsam illum pariatur molestias aut repellendus
+      maxime natus porro magnam sit labore corrupti molestiae saepe. Similique, quo! Aliquid illo nihil labore ea rem
+      quos, vitae reprehenderit quis ipsa, magnam mollitia reiciendis autem? Aperiam quaerat minima laborum harum
+      cupiditate sint soluta eum, nulla odit voluptatum consectetur excepturi tenetur vero ipsam officiis aliquam!
+      Laboriosam et eos repudiandae ad voluptatem in. Saepe voluptas adipisci minus cupiditate sed voluptate corrupti
+      inventore ab! Sed nesciunt nisi ad voluptate cumque vel et saepe tenetur reprehenderit adipisci a nobis error
+      blanditiis voluptates quaerat porro corporis ipsam maiores quae tempore sunt accusantium iure, iusto esse! Maiores
+      soluta harum doloribus ullam repudiandae ipsam dolores quia sit inventore est repellendus deleniti sint eos
+      consequuntur, laboriosam natus! Dolores nam magni maxime labore aperiam corrupti beatae eius. Ad recusandae, non
+      illum velit itaque numquam voluptatibus consequuntur delectus eos autem reprehenderit accusamus magni. Odit,
+      consectetur.</p>
+    <h3 id="fin">El fin</h3>
+  </div>
+</body>
+
+</html>
